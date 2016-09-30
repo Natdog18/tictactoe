@@ -1,0 +1,103 @@
+body{
+    background: #333 url(http://www.anothermonkeythai.com/wp-content/uploads/2015/06/rest3.jpg)center center no-repeat;
+    background-size:cover;
+    color:#532827; 
+
+}
+#container{
+    width:400px;
+    margin:40px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background: url('') top left repeat;
+    box-shadow: 0 10px 15px -8px #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 30px;
+    text-align: center;
+    background-color:#f8f2ec;
+}
+h1 {
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #4d0000;
+}
+form{
+    text-align:left;
+
+    
+}
+form input,
+form select{
+ padding: 8px;
+ margin:10px o;   
+}
+form label{
+    display:block;
+    margin:25px 0;
+    font-weight: bold;
+
+}
+form input[type="text"]{
+    width: 90px;
+}
+button{
+    background: #6c2726;
+    color:white;
+    border: none;
+    border-bottom: soild 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px;
+    width:100%
+}
+button:hover{
+    background: #4c2827;
+    border-bottom-color: #000000;
+}
+button:active{
+    position:relative;
+    top: 1px;
+}
+
+clear{
+    background:#ff0000;
+    color:white;
+    border: none;
+    border-bottom: soild 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px;
+    width:100%
+}
+clear:hover{
+    background: #4c2827;
+    border-bottom-color: #000000;
+}
+clear:active{
+    position:relative;
+    top: 1px;
+}
+
+#totalTip{
+    font-size: 50px;
+    margin-top: 40px;
+
+}
+#totalTip:before{
+    content:"Tip amount";
+    font-size: 14px;
+    font-weight: bold;
+    display:block;
+    text-transform: uppercase;
+}
+#totalTip sup{
+    font-size: 24px;
+    top: -18px;
+
+}
+#totalTip small {
+    font-size: 14px;
+    font-weight:bold;
+    display: block;
+}

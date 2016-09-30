@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="tip.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="cyborg.css">-->
+    <link rel="stylesheet" href="tip.css">
+    <link href="https://fonts.googleapis.com/css?family=David+Libre" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Rose's Tip</title>
+
+
+</head>
+
+
+<body>
+
+
+    <h1>Blossom's</h1>
+
+    <div id="container">
+        <h1>Tip Calculator</h1>
+        <div id="calculator">
+            <form>
+                <lable>
+                    How much was your bill?<br> $ <input type="text" id="billAmount">
+                </lable>
+                <lable>
+
+                    <br>
+                    <select id="serviceQuality">
+                        <div class="dropdown" id="pick">
+                            <option disabled selected value ="0"> --Choose an option --</option>
+                            <option value="0.3">30% - Outstanding</option>
+                            <option value="0.2">20% - Good</option>
+                            <option value="0.15">15% - It was okay</option>
+                            <option value="0.1">10% - Bad</option>
+
+                    </select>
+
+                </lable>
+                <lable>
+                    How did we do?<br>
+                    <input type="text" id="totalPeople"> Split the Bill?
+                </lable>
+                <button type="button" id="calculate">Calculate!</button>
+                <br></br>
+
+                <button type="clear" id="clear">Clear</button>
+                <span class='st_sharethis_large' displayText='ShareThis'></span>
+                <span class='st_facebook_large' displayText='Facebook'></span>
+                <form action="demo_form.asp">
+                    Username: <input type="text" name="usrname" maxlength="6"><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </form>
+
+            <div id="totalTip">
+                <span id="tip">0.00</span>
+                <small id="each">each</small>
+                
+                
+                
+                <!--<form action="demo_form.asp">-->
+                    <!--Username: <input type="text" name="usrname" maxlength="6"><br>-->
+                    <!--<input type="submit" value="Submit">-->
+                </form>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+</body>
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "8d5e89c4-7522-453f-b2c8-dc0299da8e05", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
+
+</html>
